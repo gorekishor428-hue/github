@@ -1,0 +1,13 @@
+name:kishu
+
+on:
+ push:
+  branches: [main]
+
+jobs:
+ demo:
+  runs-on: ubuntu_latest
+
+  steps:
+   - name: greeting
+     run :echo "new data is pushed"
